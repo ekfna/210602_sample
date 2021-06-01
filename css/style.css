@@ -16,8 +16,10 @@ html{font-family: 'Noto Sans KR', sans-serif;}
 	em{font-style: normal;}
 	nav ul{width:60px;height:44px;float: right;}
 	nav ul li{list-style-type: none;width: 30%;height: 60px;font-size: 2em;line-height: 1.2;word-spacing: -1px;font-weight:400;}
-    nav ul li a{display: block;color: white;text-decoration: none;}
+    nav ul li a{display: block;text-decoration: none;}
     li{list-style: none;text-decoration: none;}
+    a{ text-decoration: none; color: white; }
+    a:link{text-decoration: none;}
 	a:hover{color:red;transition: all 1s;}
 	img{display:block;}
 
